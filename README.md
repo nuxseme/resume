@@ -20,12 +20,28 @@
 </table>
 
 ##项目
-###YEdadou
+###YEdadou 广州野大豆科技有限公司
+* 时间：2015.5-今 &nbsp;PHP工程师
+* 野大豆微商平台。实现部分接口系统，商品管理系统，挂件系统
+* 微信消息管理系统，会员系统，订单系统
+
+##
 ###Vcanbuy
-* 时间：2014.7-2015.4
-* 
+* 时间：2014.7-2015.4	&nbsp;&nbsp;PHP工程师
+* Vcanbuy 是一个主要面向对象是东南亚地区用户的代购电商网站
+* 物流项目中实现客户系统，其它插件工具
+* 重写了网站的前台和部分后台
+
+
 
 ##技能点
+* HTML CSS JS JQ 
+* C C++ PHP python
+* mysql sqlite mongdb redits Memcache
+* MVC TP Yii
+* git svn 
+* Linux shell
+* TCP/IP SOCKET
 
 ##自我评价
 
