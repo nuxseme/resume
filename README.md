@@ -35,13 +35,7 @@
 
 
 ##技能点
-* HTML CSS JS JQ 
-* C C++ PHP python
-* mysql sqlite mongdb redits Memcache
-* MVC TP Yii
-* git svn 
-* Linux shell
-* TCP/IP SOCKET
+PHP 
 
 ##自我评价
 
