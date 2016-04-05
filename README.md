@@ -9,7 +9,7 @@
 </tr>
 <tr>
 <td><img src='Image/call.png' width='20' height="20"/></td>
-<td>1580010611</td>
+<td>15800010611</td>
 </tr>
 <tr>
 <td><img src='Image/email.png'  width='20' height="20"/></td>
@@ -24,6 +24,7 @@
 * 时间：2015.5-今 &nbsp;PHP工程师
 * 野大豆微商平台。实现部分接口系统，商品管理系统，挂件系统
 * 微信消息管理系统，会员系统，订单系统
+* 性能优化，业务逻辑优化，mysql优化
 
 ##
 ###Vcanbuy
@@ -31,8 +32,6 @@
 * Vcanbuy 是一个主要面向对象是东南亚地区用户的代购电商网站
 * 物流项目中实现客户系统，其它插件工具
 * 重写了网站的前台和部分后台
-
-
 
 ##技能点
 PHP 
@@ -43,6 +42,10 @@ PHP
 * Perfect		　　　　&nbsp;&nbsp;&nbsp;&nbsp;完美　　尽善尽美
 * Accommodate	　　容纳　　有容乃大
 * Explore		　　　　　探索　　星辰大海
+
+##缺点
+* 算法
+* 服务器(正在研究)
 
 ##格志之至
 * 技术
