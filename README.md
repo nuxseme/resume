@@ -48,8 +48,8 @@
 
 ### 野大豆一元抢购
 
--项目职务：	php开发工程师
--相关技术： php swoole nginx reids memcache mongodb
+-项目职务：	php开发工程师  
+-相关技术： php swoole nginx reids memcache mongodb  
 -项目职责：	
 	1 设计一元购和拼团流程   
 	2 设计数据表   
