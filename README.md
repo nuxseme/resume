@@ -94,6 +94,7 @@
 - 前端框架：Bootstrap/VUE.js
 - 数据库相关：MySQL/PgSQL/PDO/SQLite
 - 版本管理、文档和自动化部署工具：Svn/Git/Composer/Xdebug
+- 领域驱动设计开发模式
 - 单元测试：PHPUnit
 - 云和开放平台：微信应用开发
 - 在腾讯云用服务器，平时帮朋友搭建轻型网站并维护服务器
