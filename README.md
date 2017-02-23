@@ -1,3 +1,5 @@
+# 个人简历
+***
 
 ## 联系方式
 <table>
@@ -23,7 +25,7 @@
 
  - 何亚东/男/1991 
  - 本科/中山大学软件工程 
- - 工作年限：3年 
+ - 工作年限：2年 
  - 技术博客：http://www.nuxseme.com
  - Github：http://github.com/nuxseme
  - 期望职位：开发工程师  
@@ -78,6 +80,7 @@
 - 前端框架：Bootstrap/VUE.js
 - 数据库相关：MySQL/PgSQL/PDO/SQLite
 - 版本管理、文档和自动化部署工具：Svn/Git/Composer/Xdebug
+- 领域驱动设计开发模式
 - 单元测试：PHPUnit
 - 云和开放平台：微信应用开发
 - 在腾讯云用服务器，平时帮朋友搭建轻型网站并维护服务器
