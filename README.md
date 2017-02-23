@@ -23,7 +23,7 @@
 
  - 何亚东/男/1991 
  - 本科/中山大学软件工程 
- - 工作年限：3年 
+ - 工作年限：2年 
  - 技术博客：http://www.nuxseme.com
  - Github：http://github.com/nuxseme
  - 期望职位：开发工程师  
