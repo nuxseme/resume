@@ -17,10 +17,10 @@
 </tr>
 <tr><td><img src='Image/sunyatsen.jpg'  width='20' height="20"/></td>
 <td>中山大学软件工程</td></tr>
-<tr><td><img src='https://nuxseme.github.io/resume/Image/GitHub.ico'  width='20' height="20"/></td>
+<tr><td><img src='Image/GitHub.ico'  width='20' height="20"/></td>
 <td><a href="http://github.com/nuxseme" target="_blank" style="text-decoration:none;" >github</a></td></tr>
 </tr>
-<tr><td><img src='https://nuxseme.github.io/resume/Image/home.ico'  width='20' height="20"/></td>
+<tr><td><img src='Image/home.ico'  width='20' height="20"/></td>
 <td><a href="http://nuxseme.com" target="_blank" style="text-decoration:none;">个人主页</a></td></tr>
 </table>
 
