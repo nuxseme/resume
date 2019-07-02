@@ -22,7 +22,7 @@
 
 
 
-* Creative		　　　　&nbsp;&nbsp;创造
+* Creative		　　　　&nbsp;&nbsp;创造    万物之源
 * Perfect		　　　　&nbsp;&nbsp;&nbsp;&nbsp;完美　　尽善尽美
 * Accommodate	　　容纳　　有容乃大
 * Explore		　　　　　探索　　星辰大海
