@@ -366,27 +366,14 @@ kbd {
 <li>主要任务：CRM核心模块开发和维护</li>
 </ul>
 
-<h4 id="toc_4">邮件</h4>
+<h4 id="toc_4">一 邮件</h4>
 
 <ul>
 <li>项目描述<br>
-CRM管理系统主要管理用户的客户，邮件，单据，产品等数据。邮件作为用户的商业沟通的主要载体，需要搜索，分发，多个终端同步等各种业务操作。</li>
+CRM管理系统主要管理用户的客户，邮件，单据，产品等数据。邮件作为用户的商业沟通的主要载体，需要搜索，分发，多个终端同步,收发邮件，邮件追踪等各种业务操作。</li>
 </ul>
 
-<h5 id="toc_5">邮件消费队列</h5>
-
-<ul>
-<li>主要任务<br>
-大量的邮件收下来之后需要，对每封邮件回调处理，由于处理的业务比较多，耗时比较长。</li>
-<li>解决方案<br>
-队列</li>
-<li>实现<br>
-php+swoole</li>
-</ul>
-
-<p>遇到的问题: 静态变量不断增长导致内存oom</p>
-
-<h5 id="toc_6">邮件模块重构</h5>
+<h5 id="toc_5">1 邮件模块重构</h5>
 
 <ul>
 <li>主要任务<br>
@@ -394,15 +381,29 @@ php+swoole</li>
 <li>解决方案和实现<br>
 1 抽象成代理类处理，逻辑分离<br>
 2 数据表根据稀疏度拆分成横表和竖表<br>
-3 统一回调逻辑，接受接口调用和队列消费<br></li>
+3 统一回调逻辑，接受接口调用和队列消费</li>
 </ul>
 
-<h5 id="toc_7">邮件多端同步</h5>
+<h5 id="toc_6">2 邮件消费队列</h5>
+
+<ul>
+<li>主要任务<br>
+大量的邮件收下来之后需要，对每封邮件回调处理，由于处理的业务比较多，耗时比较长。</li>
+<li>解决方案<br>
+消息入队，多进程消费</li>
+<li>实现<br>
+消息队列:阿里云MNS<br>
+消费进程:php+swoole<br></li>
+</ul>
+
+<p>遇到的问题: 静态变量不断增长导致内存oom</p>
+
+<h5 id="toc_7">3 邮件多端同步</h5>
 
 <ul>
 <li>主要任务<br>
 桌面端，app端，web端邮件同步<br></li>
-<li>解决方案<br>
+<li>解决方案 
 http+pb</li>
 <li>实现<br>
 1 数据变更操作埋点，记录下version<br>
@@ -411,7 +412,7 @@ http+pb</li>
 4 终端将差异数据拉取到本地，同时更新终端的最新版本号<br></li>
 </ul>
 
-<h4 id="toc_8">AI推荐</h4>
+<h4 id="toc_8">二 智能推荐</h4>
 
 <ul>
 <li>主要任务<br>
@@ -424,7 +425,7 @@ http+pb</li>
 3 缓存降低接口压力<br></li>
 </ul>
 
-<h4 id="toc_9">通用统计查询</h4>
+<h4 id="toc_9">三 通用统计查询</h4>
 
 <ul>
 <li>主要任务<br>
@@ -444,12 +445,12 @@ http+pb</li>
 <h3 id="toc_10">通淘国际有限公司</h3>
 
 <ul>
-<li>职位：系统开发工程师</li>
+<li>职位：php开发工程师</li>
 <li>任职时间：2016.6--2017.5</li>
 <li>主要任务：tomtop供应链项目协作开发，图片系统独立开发，其他部门子系统功能对接</li>
 </ul>
 
-<h4 id="toc_11">Tomtop供应链项目</h4>
+<h4 id="toc_11">一 Tomtop供应链项目</h4>
 
 <ul>
 <li><p>项目描述<br>
@@ -459,12 +460,11 @@ php中间件开发，将单一的js+java结构解耦。由js负责业务逻辑�
 <li><p>解决方案<br>
 增加php中间层，由php负责数据渲染，数据缓存，数据同步，用户认证等功能</p></li>
 <li><p>实现<br>
-1 mongodb+crontab实现数据同步<br>
-2 redis实现数据缓存<br>
-3 项目基础ddd+Yii2</p></li>
+1 redis实现数据缓存<br>
+2 项目基础ddd+Yii2</p></li>
 </ul>
 
-<h4 id="toc_12">图片管理系统</h4>
+<h4 id="toc_12">二 图片管理系统</h4>
 
 <ul>
 <li><p>项目描述<br>
@@ -483,15 +483,15 @@ php中间件开发，将单一的js+java结构解耦。由js负责业务逻辑�
 
 <hr>
 
-<h3 id="toc_13">野大豆科技 （2015.4-2016.5）</h3>
+<h3 id="toc_13">野大豆科技 （2014.6-2016.5）</h3>
 
 <ul>
-<li>职位：系统开发工程师</li>
+<li>职位：php开发工程师</li>
 <li>任职时间：2015.4--2016.5</li>
 <li>主要任务：负责业务分析，需求处理，各个项目的开发维护，测试环境的维护</li>
 </ul>
 
-<h4 id="toc_14">微分销平台</h4>
+<h4 id="toc_14">一 微信商城平台</h4>
 
 <ul>
 <li>项目描述<br>
@@ -506,49 +506,31 @@ php中间件开发，将单一的js+java结构解耦。由js负责业务逻辑�
 5 用swoole实现定时器，插件<br></li>
 </ul>
 
-<h4 id="toc_15">微支付</h4>
+<h2 id="toc_15">开源项目和作品</h2>
 
-<ul>
-<li>项目描述<br>
-第三方支付平台</li>
-<li>主要任务<br>
-流程分析,消息队列,ab数据压测</li>
-<li>实现<br>
-1 ab 数据压测<br>
-2 mongo日志记录<br>
-3 redis+swoole实现消息队列<br></li>
-</ul>
+<h3 id="toc_16">开源项目</h3>
 
-<h4 id="toc_16">微抢购</h4>
-
-<h4 id="toc_17">拼团</h4>
-
-<h2 id="toc_18">开源项目和作品</h2>
-
-<h3 id="toc_19">开源项目</h3>
-
-<h4 id="toc_20"><a href="http://github.com/nuxseme/iphp">iphp</a></h4>
+<h4 id="toc_17"><a href="http://github.com/nuxseme/iphp">iphp</a></h4>
 
 <blockquote>
 <p>php+swoole搭建的简易框架，包含自动加载，路由解析，http解析，错误处理，环境检测等功能。定时器，插件等功能待完善</p>
 
-<h4 id="toc_21"><a href="http://www.nuxseme.com">nuxseme</a></h4>
+<h4 id="toc_18"><a href="http://www.nuxseme.com">nuxseme</a></h4>
 
 <p>github+hexo+Next+travis-ci搭建的博客项目<br>
 修改了Next主题部分代码<br>
 采用travis-ci自动测试部署 </p>
 </blockquote>
 
-<h2 id="toc_22">技术文章</h2>
+<h2 id="toc_19">技术文章</h2>
 
 <ul>
-<li><a href="http://nuxseme.com/sso/sso">sso流程解析</a></li>
+<li><a href="http://nuxseme.com/php/TTFB%E8%BF%87%E9%95%BFbug%E8%BF%BD%E8%B8%AA">TTFB过长bug追踪</a></li>
 <li><a href="http://nuxseme.com/php/nginx+lua+graphicsmagick%E5%AE%9E%E6%97%B6%E7%94%9F%E6%88%90%E7%BC%A9%E7%95%A5%E5%9B%BE">nginx+lua+graphicsmagick实时生成缩略图</a> </li>
-<li><a href="http://nuxseme.com/ssh/ssh%E5%8E%9F%E7%90%86%E5%92%8C%E6%B5%81%E7%A8%8B">ssh原理和流程</a></li>
 <li><a href="http://nuxseme.com">more...</a></li>
 </ul>
 
-<h2 id="toc_23">技能清单</h2>
+<h2 id="toc_20">技能清单</h2>
 
 <ul>
 <li>Web开发：PHP</li>
@@ -577,7 +559,7 @@ php中间件开发，将单一的js+java结构解耦。由js负责业务逻辑�
 - 测试<br>
 - 网络编程</p>
 
-<h2 id="toc_24">致谢</h2>
+<h2 id="toc_21">致谢</h2>
 
 <p>感谢您花时间阅读我的简历</p>
 
