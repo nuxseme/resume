@@ -17,12 +17,13 @@
 </tr>
 <tr><td><img src='Image/sunyatsen.jpg'  width='20' height="20"/></td>
 <td>中山大学软件工程</td></tr>
-<tr><td><img src='https://nuxseme.github.io/resume/Image/GitHub.ico'  width='20' height="20"/></td>
+<tr><td><img src='Image/GitHub.ico'  width='20' height="20"/></td>
 <td><a href="http://github.com/nuxseme" target="_blank" style="text-decoration:none;" >github</a></td></tr>
 </tr>
-<tr><td><img src='https://nuxseme.github.io/resume/Image/home.ico'  width='20' height="20"/></td>
+<tr><td><img src='Image/home.ico'  width='20' height="20"/></td>
 <td><a href="http://nuxseme.com" target="_blank" style="text-decoration:none;">个人主页</a></td></tr>
 </table>
+
 
 
 ## 工作经历
@@ -147,6 +148,12 @@
 > 4 兼容旧版流程和交互，加入了自定义设置使整个审批流引擎复杂
 >
 > 5 初版过滤机制依赖数据库能力，导致不能完全适配需求
+
+
+
+[想了解更多](http://nuxseme.com/summary-gitbook/%E5%AE%A1%E6%89%B9%E6%B5%81%E5%BC%95%E6%93%8E/1-%E4%B8%9A%E5%8A%A1%E5%9C%BA%E6%99%AF.html)
+
+
 
 ----
 
